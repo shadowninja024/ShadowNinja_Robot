@@ -1,7 +1,7 @@
 """Carbon Scraper Plugin for Userbot. //text in creative way.
 usage: .karb //as a reply to any text message
 
-##Shado_Ninja
+# Shadow_ninja
 
 Thanks to @Shadow_ninja_legit for THIS PLUGIN"""
 
