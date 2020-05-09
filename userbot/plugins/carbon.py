@@ -152,7 +152,7 @@ async def carbon_api(e):
 
          file,
 
-         caption="<< Here's your carbon, \n Carbonised by [IndianBot](https://www.github.com/indianbhaiya/IndianBot)>> ",
+         caption="<< Here's your carbon, \n Carbonised by [ShadowNinja_Robot](https://github.com/shadowninja024/ShadowNinja_Robot)>> ",
 
          force_document=True,
 
@@ -160,7 +160,7 @@ async def carbon_api(e):
 
          )
 
-   os.remove('./IndianBot.png')
+   os.remove('./ShadowNinja_Rebot.png')
 
    driver.quit()
 
