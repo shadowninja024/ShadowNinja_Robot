@@ -1,6 +1,6 @@
 """Reply to an image/sticker with .mmf` 'text on top' ; 'text on bottom
-base by: @pureindialover
-created by: @pureindialover
+base by: @ShadowNinja
+edited by: @ShadowNinja
 if you change these, you gay.
 """
 
@@ -117,8 +117,8 @@ async def _(event):
                 event.chat_id,
                 requires_file_name,
                 supports_streaming=False,
-                caption="Userbot: Powered by @pureindialover",
-                # Courtesy: @A_Dark_Princ3
+                caption="Userbot: Powered by @Shadow_ninja_legit",
+                # Courtesy: @Shadow_ninja_legit
             )
             await event.delete()
             await borg.send_message(event.chat_id, "`☠️☠️23 Points to Griffindor!🔥🔥`")
