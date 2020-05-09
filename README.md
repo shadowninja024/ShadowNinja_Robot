@@ -1,20 +1,20 @@
-# IndianBot
+# ShadowNinja_Robot
 
-For any query or want to know how it works join
-## https://t.me/IndianBot_Official
+For any query or want to purchase anything 
+## https://t.me/shadowninjaproofs
 
 ## FORK AT YOUR OWN RISK
 ### Installing
 
 ### The Easy Way
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/indianbhaiya/IndianBot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shadowninja024/ShadowNinja_Robot)
 
 ### The Normal Way
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/indianbhaiya/IndianBot
-cd Indianbot
+git clone https://github.com/shadowninja024/ShadowNinja_Robot
+cd ShadowNinja_Robot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
@@ -33,7 +33,7 @@ from heroku_config import Var
 
 class Development(Var):
   APP_ID = 6
-  API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
+  API_HASH = "e869ac40c2ee5b151cd7b2f55c88a686"
 ```
 
 ### UniBorg Configuration
@@ -53,3 +53,5 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
     - `APP_ID`:   You can get this value from https://my.telegram.org
     - `API_HASH`:   You can get this value from https://my.telegram.org
 - The userbot will not work without setting the mandatory vars.
+
+## Thank You for using my Robot
