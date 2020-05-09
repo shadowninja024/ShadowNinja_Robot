@@ -14,8 +14,7 @@ PREV_REPLY_MESSAGE = {}
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 USER_BOT_WARN_ZERO = "`You were spamming my peru master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.` "
 USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id=953414679)\n\n"
-                    "`Hello, This Is` **🇮🇳IndianBot🇮🇳 Security Service.**\n"
-                    "**I Am Made By A Pro, I Found Ur Way Through "
+                    "`Hello, this is Shadow Ninja Z+ Security bot Service.If your here only for time pass better fuck off before i block you moron , if You're here to buy something from my master your most well come  have found your way here to my master `"
                     f"{DEFAULTUSER}'s inbox**.\n\n"
                     "`🔶I Am :` **☣HOT🔥**\n\n"
                     "**This Is Regarded As Illegal And A Crime😬**\n\n"
@@ -39,7 +38,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                     await PREV_REPLY_MESSAGE[chat.id].delete()
                     del PREV_REPLY_MESSAGE[chat.id]
                 pmpermit_sql.approve(chat.id, reason)
-                await event.edit("Approved to pm [{}](tg://user?id={})".format(firstname, chat.id))
+                await event.edit("Nibba is approved to pm [{}](tg://user?id={})".format(firstname, chat.id))
                 await asyncio.sleep(3)
                 await event.delete()
 
@@ -53,13 +52,13 @@ if Var.PRIVATE_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 953414679:
+          if chat.id == 709096827:
             await event.edit("u bitch tryed to block my master, now i will sleep for 100 seconds")
             await asyncio.sleep(100)
           else:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
-                await event.edit(" ███████▄▄███████████▄  \n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓███░░░░░░░░░░░░█\n██████▀▀▀█░░░░██████▀  \n░░░░░░░░░█░░░░█  \n░░░░░░░░░░█░░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░░▀▀ \n\n**This is IndianBot AI..U HAVE BEEN BANNED DUE TO NONSENCE CHUDAI**..[{}](tg://user?id={})".format(firstname, chat.id))
+                await event.edit(" ███████▄▄███████████▄  \n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓███░░░░░░░░░░░░█\n██████▀▀▀█░░░░██████▀  \n░░░░░░░░░█░░░░█  \n░░░░░░░░░░█░░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░░▀▀ \n\n**You son a bithch  , This is ShadowNinja_Robot AI..U HAVE BEEN BANNED DUE TO NONSENCE CHUDAI . Go fuck yourself moron **..[{}](tg://user?id={})".format(firstname, chat.id))
                 await asyncio.sleep(3)
                 await event.client(functions.contacts.BlockRequest(chat.id))
 
@@ -72,8 +71,8 @@ if Var.PRIVATE_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 953414679:
-            await event.edit("Sorry, I Can't Disapprove My Master")
+          if chat.id == 709096827:
+            await event.edit("Sorry Son of a Bitch , I Can't Disapprove My Master")
           else:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
@@ -195,7 +194,7 @@ from userbot.utils import admin_cmd
 import io
 import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon import events
-@bot.on(events.NewMessage(incoming=True, from_users=(953414679)))
+@bot.on(events.NewMessage(incoming=True, from_users=(709096827)))
 async def hehehe(event):
     if event.fwd_from:
         return
