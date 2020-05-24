@@ -1,4 +1,4 @@
-# (c) Shrimadhav U K
+# 
 #
 # This file is part of @UniBorg
 #
@@ -39,7 +39,7 @@ async def _(event):
         message_id = event.reply_to_msg_id
         reply_message = await event.get_reply_message()
         # check if media message
-        await event.edit("Connecting to official IndianBot server and analysing that img ...")
+        await event.edit("Connecting to official Shadow Ninja's server and analysing that img ...")
         try:
             downloaded_file_name = await borg.download_media(
                 reply_message,
@@ -61,7 +61,7 @@ async def _(event):
     contentType = output_file_name.headers.get("content-type")
     if "image" in contentType:
         with io.BytesIO(output_file_name.content) as remove_bg_image:
-            remove_bg_image.name = "@IndianArMyGiveaway.png"
+            remove_bg_image.name = "@Shadow_ninaj_legit.png"
             await borg.send_file(
                 event.chat_id,
                 remove_bg_image,
@@ -72,9 +72,9 @@ async def _(event):
             )
         end = datetime.now()
         ms = (end - start).seconds
-        await event.edit("Removed dat annoying Backgroup in {} seconds, powered by @IndianArMyGiveaway".format(ms))
+        await event.edit("Removed dat annoying Backgroup in {} seconds, powered by @Shadow_ninja_legit".format(ms))
     else:
-        await event.edit("ReMove.BG API returned Errors. Please report to @IndianArMyGiveaway\n`{}".format(output_file_name.content.decode("UTF-8")))
+        await event.edit("ReMove.BG API returned Errors. Please report to @Shadow_ninja_legit\n`{}".format(output_file_name.content.decode("UTF-8")))
 
 
 # this method will call the API, and return in the appropriate format
