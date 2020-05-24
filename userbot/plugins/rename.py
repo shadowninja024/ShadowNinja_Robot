@@ -3,7 +3,7 @@ Syntax:
 .rename file.name
 .rnupload file.name
 .rnstreamupload file.name
-By @Ck_ATR"""
+
 import aiohttp
 import asyncio
 from datetime import datetime
@@ -167,7 +167,7 @@ async def _(event):
                     event.chat_id,
                     downloaded_file_name,
                     thumb=thumb,
-                    caption="reuploaded by [IndianBot](https://www.github.com/indianbhaiya/IndianBot",
+                    caption="reuploaded by [ShadowNinja_Robot](https://github.com/shadowninja024/ShadowNinja_Robot",
                     force_document=False,
                     allow_cache=False,
                     reply_to=event.message.id,
